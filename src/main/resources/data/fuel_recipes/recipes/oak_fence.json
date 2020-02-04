@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:oak_fence"
+	},
+	"burnTime": 300
+}

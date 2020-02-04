@@ -1,37 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fuel_recipes",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Furnace Fuel Recipes",
+  "description": "Defines furnace fuels through recipes.",
   "authors": [
-    "Me!"
+    "justinhschaaf"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://justinschaaf.com",
+    "sources": "https://github.com/justinhschaaf/FurnaceFuelRecipes"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/fuel_recipes/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.justinschaaf.fuelrecipes.FuelRecipes"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
-    "fabricloader": ">=0.7.2",
+    "fabricloader": ">=0.7.6",
     "fabric": "*",
     "minecraft": "1.15.x"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }

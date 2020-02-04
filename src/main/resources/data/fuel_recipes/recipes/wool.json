@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"tag": "minecraft:wool"
+	},
+	"burnTime": 100
+}

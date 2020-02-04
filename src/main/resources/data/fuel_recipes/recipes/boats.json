@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"tag": "minecraft:boats"
+	},
+	"burnTime": 1200
+}

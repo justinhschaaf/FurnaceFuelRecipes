@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:blaze_rod"
+	},
+	"burnTime": 2400
+}

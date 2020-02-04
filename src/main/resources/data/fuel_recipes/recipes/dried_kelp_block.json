@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:dried_kelp_block"
+	},
+	"burnTime": 4001
+}

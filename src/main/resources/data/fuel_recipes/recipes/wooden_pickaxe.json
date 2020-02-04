@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:wooden_pickaxe"
+	},
+	"burnTime": 200
+}

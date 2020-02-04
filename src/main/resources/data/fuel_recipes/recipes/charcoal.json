@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:charcoal"
+	},
+	"burnTime": 1600
+}

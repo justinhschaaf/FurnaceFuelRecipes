@@ -1,16 +1,31 @@
-# Fabric Example Mod
+# Furnace Fuel Recipes
 
-## Setup
+Defines furnace fuels through recipes.
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+## Usage
 
+Under `data/{namespace}*/recipes`, create a JSON file with the following options:
+
+| Key        | Value                 | Description |
+|------------|-----------------------|-------------|
+| `type`     | `"fuel_recipes:fuel"` | Defines that this recipe declares a fuel item.
+| `input`    | Ingredient            | An item or tag which this recipe applies to.
+| `burnTime` | int                   | The number of ticks this fuel should burn for.
+
+*\* Note that {namespace} should either be your mod id or `fuel_recipes`, not `minecraft`!*
+
+### Example
+
+```json
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:coal"
+	},
+	"burnTime": 1600
+}
 ```
-./gradlew idea
-```
 
-## License
+## [License](https://github.com/justinhschaaf/FurnaceFuelRecipes/blob/master/LICENSE)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIT License

@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:wooden_sword"
+	},
+	"burnTime": 200
+}

@@ -1,0 +1,7 @@
+{
+	"type": "fuel_recipes:fuel",
+	"input": {
+		"item": "minecraft:dead_bush"
+	},
+	"burnTime": 100
+}
